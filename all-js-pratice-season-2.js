@@ -223,12 +223,32 @@
 // orr 
 // console.log("my nname is ",obj.name,"i am ",obj.age,"old")
 
-let name= prompt("enter your name")
-let age=prompt("enter your age")
-let obj={
-    name,
-    age,
-};
-let output=`my name is ${obj.name} and i am  ${obj.age} years old`
-console.log(output)
-console.log(output.length)
+// let name= prompt("enter your name")
+// let age=prompt("enter your age")
+// let obj={
+//     name,
+//     age,
+// };
+// let output=`my name is ${obj.name} and i am  ${obj.age} years old`
+// console.log(output)
+// console.log(output.length)
+
+//string method in javascript
+//str.touppercase
+// let name="kishor";
+// let newname=name.touppercase();
+// console.log(newname)
+
+//str.tolowercase
+// let name="kishor"
+// name=name.tolowercase();
+// console.log(str)
+
+//str.trim  =>removes white space
+// let name="  kishor   "
+// console.log(name.trim());
+// console.log(name.length)
+
+//str.slice  =>returns parts of string
+let str="kishor"
+console.log(str.slice(0,2))
