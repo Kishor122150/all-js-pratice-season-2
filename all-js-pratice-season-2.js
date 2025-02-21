@@ -214,9 +214,21 @@
 // console.log(str)
 // console.log(typeof(str))
 
+// let obj={
+//     name:prompt("enter your name"),
+//     age:prompt("enter your age"),
+// };
+// let output=`my name is ${obj.name} and i am  ${obj.age} years old`
+// console.log(output)
+// orr 
+// console.log("my nname is ",obj.name,"i am ",obj.age,"old")
+
+let name= prompt("enter your name")
+let age=prompt("enter your age")
 let obj={
-    name:"kishor",
-    age:20,
+    name,
+    age,
 };
 let output=`my name is ${obj.name} and i am  ${obj.age} years old`
 console.log(output)
+console.log(output.length)
