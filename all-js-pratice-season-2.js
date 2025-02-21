@@ -302,7 +302,43 @@
 // }
 
 //to print upper case
-let names=["kishor","kiran","kripa"]
-for(let name of names){
-    console.log(name.toUpperCase())
+// let names=["kishor","kiran","kripa"]
+// for(let name of names){
+//     console.log(name.toUpperCase())
+// }
+
+// Qn) for a given array with marsks of studemt find the average of class 
+// let marks=[85,97,44,37,76,60]
+// let avg=((marks[0]+marks[1]+marks[2]+marks[3]+marks[4]+marks[5])/marks.length)
+// console.log("average of class:"+ avg)
+
+// or
+// let marks=[80,97,44,37,76,60]
+// let sum=0;
+// for(let val of marks){
+//     // sum=sum+val;
+//     console.log(val)
+// }
+// let avg=sum/marks.length;
+// console.log(`average of class is ${avg}`)
+
+//qn) for given array with price of 5 items all items have 10% off .change the array and store final price after discount
+//using for---of loop
+// let i=0;
+// let items=[250,645,300,900,50]
+// for(let val of items){
+//     console.log(`value at index ${i}=${val}`)
+// let offer=val/10;
+// items[i]=items[i]-offer;
+// console.log(`value after offer=${items[i]}`)
+// i++;
+// }
+
+//using for loop
+let items=[250,645,300,900,50]
+for(let i=0;i<=items.length;i++){
+    offer=items[i]/10;
+    items[i]=items[i]-offer;
+
 }
+console.log(items)
