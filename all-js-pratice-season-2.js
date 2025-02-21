@@ -250,5 +250,59 @@
 // console.log(name.length)
 
 //str.slice  =>returns parts of string
-let str="kishor"
-console.log(str.slice(0,2))
+// let str="kishor"
+// console.log(str.slice(0,2))
+
+//str.concat =>join 2 string
+// let firstname="kishor";
+// let lastname="raut";
+// let final=firstname.concat(lastname)
+// console.log(final)
+// or 
+// console.log(firstname+lastname)
+// console.log(firstname,lastname)
+
+// str.replace
+// let name="kiswor"
+// console.log(name.replace("w","h"))   //kishor
+
+// let name="messy"
+// console.log(name.replace("y","i"))
+
+//str.charat  =>gives index value
+// let str="ilovejs"
+// console.log(str.charAt(5))        //5 index ma j xa
+
+//wap to give new user name based on @ and length at last
+// let fullname=prompt("enter the user name")
+// let username="@"+fullname+fullname.length;
+// console.log(username)
+
+// let username=prompt("enter the user name");
+// console.log("@"+username+username.length)
+
+
+// array 
+// let details=["kishor","20","2.2"]
+// console.log(details)
+// console.log(details.length)
+// console.log(typeof(details))
+// console.log(details[1])
+
+//loop over an array
+// let names=["kishor","kiran","kripa"]
+// for(let i=0;i<=names.length;i++){
+//     console.log(names[i])
+// }
+
+//using for of loop
+// let names=["kishor","kiran","kripa"]
+// for(let name of names){
+//     console.log(name)
+// }
+
+//to print upper case
+let names=["kishor","kiran","kripa"]
+for(let name of names){
+    console.log(name.toUpperCase())
+}
