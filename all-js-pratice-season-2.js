@@ -335,10 +335,94 @@
 // }
 
 //using for loop
-let items=[250,645,300,900,50]
-for(let i=0;i<=items.length;i++){
-    offer=items[i]/10;
-    items[i]=items[i]-offer;
+// let items=[250,645,300,900,50]
+// for(let i=0;i<=items.length;i++){
+//     offer=items[i]/10;
+//     items[i]=items[i]-offer;
 
-}
-console.log(items)
+// }
+// console.log(items[i])
+
+//array method
+
+// 1)push =>add to end 
+// let fruits=["appple","banana","mango"]
+// fruits.push("orange")
+// console.log(fruits)
+
+// let names=["kishor","kiran","kripa"]
+// names.push("GOMA","keshab")
+// console.log(names)
+
+//  2)pop =>remove ended and return 
+// let names=["kishor","kiran","kripa"]
+// let returnName =names.pop()
+// console.log(names)
+// console.log(returnName)
+// or 
+// console.log(names.pop())
+
+// let names=["kishor","kiran","kripa","remove"]
+// let removed=names.pop()
+// console.log(names)
+// console.log(removed)
+
+// 3)tostring =>convert array into string
+// let names=["kishor","kiran","kripa"]
+// console.log(names)
+// console.log(names.toString())
+
+// let array=["apple","ball","cat"]
+// console.log(array.toString)
+
+// 4)concat => join multiply array and return its reasult 
+// let firsthero=["ritik","salman"]
+// let new1=["messi","ronaldo"]
+// console.log(firsthero.concat(new1))
+
+// let child=["kishor","kiran","kripa"]
+// let parent=["goma","keshab"]
+// family=child.concat(parent)
+// console.log(family)
+
+// 5)unshift =>add array to start 
+// let family=["kishor","kiran","kripa"]
+// family.unshift("goma")
+// console.log(family)
+
+// let players=['MESSI','RONALDO']
+// players.unshift("neymar")
+// console.log(players)
+
+// 6)shift =>remove from start and return 
+// let family=["remove","kishor","kiran","kripa"]
+// let removed=family.shift()
+// console.log(family)
+// console.log(removed)
+
+// 8)slice =>return a piece of array 
+// let family=["kishor","kiran","kripa","goma","keshab"]
+// console.log(family)
+// console.log(family.slice(0,3))
+// console.log(family.slice(0,2))
+
+// 9) splice =>change orginal array (addEventListener,remove,replace)
+// let arr=[1,2,3,4,5,6,7]
+// arr.splice(2,2,101,102)
+// console.log(arr)
+
+//pratice
+//create an array to story company data and remove first element and add other on it place
+let companies=["bloombery","microsoft","uber","google","ibm","netflex"]
+//for remove bloombery
+companies.shift()
+console.log(companies)
+//for romove uber and add ola there =>replacement
+companies.splice(1,1,"ola")
+console.log(companies)
+//add amazion end
+companies.push("amazion")
+console.log(companies)
+
+
+
