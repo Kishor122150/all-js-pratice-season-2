@@ -413,16 +413,103 @@
 
 //pratice
 //create an array to story company data and remove first element and add other on it place
-let companies=["bloombery","microsoft","uber","google","ibm","netflex"]
-//for remove bloombery
-companies.shift()
-console.log(companies)
-//for romove uber and add ola there =>replacement
-companies.splice(1,1,"ola")
-console.log(companies)
-//add amazion end
-companies.push("amazion")
-console.log(companies)
+// let companies=["bloombery","microsoft","uber","google","ibm","netflex"]
+// //for remove bloombery
+// companies.shift()
+// console.log(companies)
+// //for romove uber and add ola there =>replacement
+// companies.splice(1,1,"ola")
+// console.log(companies)
+// //add amazion end
+// companies.push("amazion")
+// console.log(companies)
+
+//functions and methods
+// function firstfunction(){
+//     console.log("welcome")
+//     console.log("we are learing js")
+// }
+// firstfunction()
+ 
+// or 
+// function myfunction(msg){
+//     console.log(msg)
+// }
+// myfunction("hello kishor")
+
+//created a  fn to calculated sum of 2 num
+// function sum(a,b){
+// // return a+b;
+// console.log(a+b)
+// }
+// sum(1,2)
+// or 
+// function sum(a,b){
+//     s=a+b;
+//     return s;
+// }
+// let val=sum(2,4)
+// console.log(val)
+// or
+// function sum(a,b){
+// return a+b;
+// }
+// let val=sum(3,2)
+// console.log(`the sum of is `, val)
+
+//arrow function
+// sum using arrow fn 
+// const arrowfunction=(a,b)=>{
+// console.log(a+b)
+// }
+// arrowfunction(1,2)
+
+// arrow function for multiplying 2 number
+// const mul=(a,b) =>{
+//    console.log(a*b)
+// }
+// mul(5,2)
+
+//pratice question
+//created a function using function keywoard that takes a string as an agrumenr and return the number of vowels in string
 
 
+// function countvowels(str) {
+//     let count = 0; // Initialize the vowel count to 0.
 
+//     for (const char of str) { // Loop through each character in the string.
+//         // Check if the character is a vowel (both lowercase and uppercase).
+//         if (
+//             char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ||
+//             char === "A" || char === "E" || char === "I" || char === "O" || char === "U"
+//         ) {
+//             count++; // Increment the count if the character is a vowel.
+//         }
+//     }
+
+//     return count; // Return the total count of vowels.
+// }
+
+// // Call the function and log the result.
+// console.log(countvowels(str)); // Output: 2
+// or 
+let str = "kishor"; // Define the input string.
+
+function countvowels(str) {
+    let count = 0; // Initialize the vowel count to 0.
+
+    for (const char of str) { // Loop through each character in the string.
+        // Check if the character is a vowel (both lowercase and uppercase).
+        if (
+            char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ||
+            char === "A" || char === "E" || char === "I" || char === "O" || char === "U"
+        ) {
+            count++; // Increment the count if the character is a vowel.
+        }
+    }
+
+    return count; // Return the total count of vowels.
+}
+
+// Call the function and log the result.
+console.log(countvowels(str)); // Output: 2
